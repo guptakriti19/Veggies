@@ -1,0 +1,275 @@
+
+.nav-item{
+ text-decoration: none; 
+ padding: 0 18px;  
+}
+
+a{
+    color: white;
+}
+
+#title{
+    background-color: black;
+}
+
+.imgdog{
+    width: 120%;
+    /* height: 120%;  */
+    /* padding-top: 9%; */
+    padding-left: 20%;
+    /* transform: rotate(25deg); */
+   position: absolute;
+   left: 5%;
+} 
+
+#join{
+  
+}
+
+.container-fluid{
+    padding: 3% 15% 15%;
+}
+
+body{
+    font-family: Montserrat-thin;
+}
+
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-nav{
+    font-family: Montserrat-thin;   
+}
+
+.navbar{
+    padding: 0 0 3.5rem;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+}
+
+.down-btn{
+    margin: 8% 4% 4% 0;
+}
+
+.features-fun{
+    margin-top: 10%;
+    /* padding: 8% 9% 0 10% ; */
+     font-weight:600;
+     text-align: center; 
+}
+
+
+#features{
+    padding: 7% 8%;
+    background-color:rgba(0, 0, 0, 0.311);
+    position: relative;
+}
+
+.bold{
+    font-weight: bolder;
+    font-size: 1.8rem;
+    
+}
+
+.hgt{
+    height: 80px;
+    margin-bottom: 2rem;
+}
+
+.hgt:hover{
+    color: yellowgreen;
+}
+
+#testimonials{
+    text-align: center;
+    color: #fff;
+    line-height: 3rem;
+    font-size: xx-large;
+    padding-bottom: 3px;
+}
+
+ .cent{
+    /* text-align: center; */
+    /* font-weight: bolder; */
+    font-family: Montserrat;
+    color: #fff;
+    line-height: 4rem;
+    /* padding: 4% 20%  4% 20%; */
+    font-size: 3rem;
+} 
+
+ .profile{
+    height:70px;
+    border-radius: 100%;
+    margin: 6%;
+ } 
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 6% 10% 6% 10%;
+    height: 80%;
+}
+
+.adjust{
+    width: 20%;
+}
+
+.carousel-item{
+    padding: 7% 15% ;
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    font: 3rem montserrat;
+    padding: 10% 1% 3% 2%;
+}
+
+.h2{
+    text-align: center;
+    padding-top: 0%;
+    margin-top: 1px;
+    color: black;
+    font-family: ubuntu;
+    font-size: 97%;
+    line-height: normal;
+}
+
+.class-deck{
+    margin: 9%;
+}
+
+#pricing{
+    padding: auto;
+    /* line-height: 1rem; */
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.pad{
+    padding: 4% 5% 2% 5%;
+}
+.card{
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+
+.h3{
+    /* margin: 5% 4/% 3% 4%; */
+    font-family: montserrat;
+    color: #fff;
+    /* background-color: rgba(0, 0, 0, 0.635); */
+    font-size: 2.3rem;
+    padding-top: 25%;
+}
+
+#cta{
+    transform: rotate (180deg);
+    background-color: rgba(0, 0, 0, 0.941);
+    padding: 7% 15%;
+    text-align:center;
+    background-image: url(chalk-board.png);
+    background-size:cover;
+
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.bird{
+    height: 30px;
+    text-align: center;
+    margin: 1%;
+    
+}
+
+.brocli{
+    height: 300px;
+    width: 300px;
+    padding: 5% 10% 5% 2%;
+    position: relative;
+
+}
+
+.lady{
+    height: 250px;
+    width: 270px;
+    position: relative;
+    padding: auto;
+}
+
+.cabbage{
+    height: 250px;
+    width: 270px;
+    position: relative;
+    padding: auto;
+}
+
+.flower{
+    height: 250px;
+    width: 270px;
+    position: relative;
+    padding: auto;
+}
+
+.cap{
+    height: 280px;
+    width: 270px;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.cucu{
+    height: 250px;
+    width: 270px;
+    position: relative;
+    padding: auto;
+}
+
+.beans{
+        height: 250px;
+        width: 270px;
+        position: relative;
+        padding: auto;
+    }
+
+.peas{
+        height: 250px;
+        width: 270px;
+        position: relative;
+        padding: auto;
+}
+
+.car{
+    height: 250px;
+    width: 270px;
+    position: relative;
+    padding: auto;
+}
+.oink{
+    display:flex;
+    justify-content: end;
+}
+#id{
+    padding: 0;
+    text-decoration: none;
+}
+@media (max-width:1028px) {
+    .imgdog{
+        position: static;
+        transform: rotate(0);
+        /* text-align: center; */
+    }
+    #title{
+        text-align: center;
+    }
+}
